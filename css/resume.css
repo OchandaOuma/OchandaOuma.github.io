@@ -1,13 +1,8 @@
-/*!
- * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */
 
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  color: black;
 }
 
 @media (min-width: 992px) {
@@ -25,7 +20,7 @@ h5,
 h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform:capitalize;
   color: #343a40;
 }
 
@@ -48,7 +43,7 @@ p.lead {
 }
 
 .subheading {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
@@ -71,22 +66,22 @@ p.lead {
   margin-right: 0;
 }
 
-.social-icons a:hover {
+/* .social-icons a:hover {
   background-color: #BD5D38;
-}
+} */
 
-.dev-icons {
-  font-size: 3rem;
-}
+/* .dev-icons {
+  font-size: 3000px;
+} */
 
-.dev-icons .list-inline-item i:hover {
+/* .dev-icons .list-inline-item i:hover {
   color: #BD5D38;
-}
+} */
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 #sideNav .navbar-toggler:focus {
@@ -189,4 +184,20 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+/* .portfolio {
+  text-align: center;
+  padding-left: 7px;
+  padding-right: 7px;
+} */
+
+.portfolio img {
+  padding: 10px;
+  width: 100%;
+  
 }
